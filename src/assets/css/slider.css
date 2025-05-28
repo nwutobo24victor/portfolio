@@ -1,0 +1,29 @@
+    .slider-container {
+      height: 100%; /* Adjust as needed */
+      overflow: hidden;
+      position: relative;
+      width: 100%; /* Adjust as needed */
+      /* border: 1px solid #ccc; */
+      margin: 2rem auto;
+    }
+
+    .slider-content {
+      display: flex;
+      flex-direction: column;
+      animation: slideUp 10s linear infinite;
+    }
+
+    .slide {
+      height: 100%; /* Same as container height */
+      display: block;
+    }
+
+    @keyframes slideUp {
+      0% {
+        transform: translateY(0%);
+      }
+      100% {
+        /* transform: translateY(-100%); */
+        transform: translateY(-600px);
+      }
+    }
