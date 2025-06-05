@@ -29,7 +29,7 @@ const Contact = () => {
             <section className="w-full">
                 <div className="block flex items-center justify-center gap-6 w-full h-screen p-4">
                     <div className="block w-full lg:w-1/3 rounded-lg ">
-                        <a href="./"><img src="./assets/images/logo.png" width="100" className="mx-auto" /></a>
+                        <a href="./"><img src="./assets/images/nwutobo_short.png" width="100" className="mx-auto" /></a>
                         <h1 className="text-3xl font-bold mb-4 text-center">Contact Us</h1>
                         <p className="text-lg mb-4 text-center">We're here to help. Reach out to us anytime!</p>
 
