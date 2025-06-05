@@ -7,7 +7,7 @@ const Skills = () => {
         <div className="block w-full">
             <div class="block w-full">
                 <h2 class="text-3xl font-bold mb-6 pb-2">Why Work With Me</h2>
-                <p class=" mb-8 leading-relaxed">
+                <p class="text-lg  max-w-3xl mb-8 leading-relaxed">
                     With over 5 years of experience in full-stack web development, I specialize in creating modern, scalable, and efficient digital solutions. My approach is results-driven, blending technical expertise with creativity to deliver platforms that are optimized for performance and user experience.
                 </p>
 
@@ -21,7 +21,7 @@ const Skills = () => {
                     My core stack covers frontend, backend, database, and design technologies. I build and maintain applications using:
                 </p>
 
-                <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm text-gray-400 font-medium mb-10">
+                <ul hidden class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm text-gray-400 font-medium mb-10">
                     <li className="hover:text-white">HTML5</li>
                     <li className="hover:text-white">CSS3</li>
                     <li className="hover:text-white">JavaScript (ES6+)</li>
@@ -41,7 +41,7 @@ const Skills = () => {
                     <li className="hover:text-white">Adobe Photoshop</li>
                 </ul>
 
-                <h3 class="text-xl font-semibold text-[#3CAAFB] mb-4">Tech Logos</h3>
+                <h3 hidden class="text-xl font-semibold text-[#3CAAFB] mb-4">Tech Logos</h3>
                 <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 items-center justify-center p-4">
                     <img src="./assets/images/stacks/details-icon-html.png" alt="HTML" title="HTML" class="h-12 mx-auto rounded-lg hover:opacity-70" />
                     <img src="./assets/images/stacks/details-icon-css.png" alt="CSS" title="CSS" class="h-12 mx-auto rounded-lg hover:opacity-70" />

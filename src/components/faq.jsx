@@ -5,18 +5,47 @@ const Faq = () => {
 
     const faqs = [
         {
-            question: 'What is your return policy?',
-            answer: 'You can return any item within 30 days of purchase.',
+            question: "What services do you offer?",
+            answer: "We specialize in web development, including frontend and backend solutions, e-commerce platforms, and custom web applications.",
         },
         {
-            question: 'Do you offer international shipping?',
-            answer: 'Yes, we ship worldwide with standard and express options.',
+            question: "How long does a typical project take?",
+            answer: "Project timelines vary depending on complexity, but most projects are completed within 4 to 12 weeks.",
         },
         {
-            question: 'How can I track my order?',
-            answer: 'Once your order ships, we’ll send you a tracking number by email.',
+            question: "Do you provide post-launch support and maintenance?",
+            answer: "Yes, we offer ongoing support and maintenance packages to keep your website secure and up to date.",
         },
+        {
+            question: "Can you help with website hosting and domain registration?",
+            answer: "Absolutely! We can assist with hosting setup, domain registration, and DNS configurations to ensure a smooth launch.",
+        },
+        {
+            question: "Do you optimize websites for SEO?",
+            answer: "Yes, SEO best practices are integrated during development to improve your website’s visibility on search engines.",
+        },
+        {
+            question: "Will my website be mobile-friendly?",
+            answer: "All our websites are fully responsive and optimized for mobile, tablet, and desktop devices.",
+        },
+        {
+            question: "How do I request a quote for my project?",
+            answer: "You can contact us through the contact form on our website or email us directly with your project details for a free consultation.",
+        },
+        {
+            question: "What technologies do you work with?",
+            answer: "We work with modern technologies such as React, Vue, Node.js, Laravel, Tailwind CSS, and more to deliver high-quality solutions.",
+        },
+        {
+            question: "Do you offer training or documentation for managing my website?",
+            answer: "Yes, we provide comprehensive documentation and training sessions to help you manage your website efficiently.",
+        },
+        {
+            question: "Can you help migrate my existing website to a new platform?",
+            answer: "Certainly! We handle website migrations ensuring minimal downtime and preserving your SEO rankings.",
+        }
     ];
+
 
 
     const [isOpen, setIsOpen] = useState(false);
