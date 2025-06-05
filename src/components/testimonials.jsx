@@ -4,7 +4,7 @@ import "../assets/css/slider.css"
 const slide = () => {
     return (
         <div className="block w-full">
-            <p className="text-4xl font-bold mb-4">Trusted by users</p>
+            <p className="text-4xl font-bold mb-4">Customer Feedback</p>
             <div className="max-h-[500px] slider-container">
                 <div className="block w-full space-y-3 slider-content">
                     <div className="w-full space-y-1 rounded-lg bg-[#22274A50] p-4 text-light-200 slide ">

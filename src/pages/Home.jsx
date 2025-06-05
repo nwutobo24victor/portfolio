@@ -68,9 +68,7 @@ const Home = () => {
                     <p className="text-4xl font-bold mb-4">Frequently Asked <span className="text-[#3CAAFB]">Questions</span></p>
 
                     <div className="block grid lg:grid-cols-3 grid-cols-1 gap-6 w-full">
-                        <div className="block col-span-1 mb-6 bg-cover" style={{ backgroundImage: "url('assets/images/faq-question-information-helpdesk-graphic-word.jpg')" }}>
-
-                            <img ssrc="assets/images/faq-question-information-helpdesk-graphic-word.jpg" className="lg:block hidden h-full" />
+                        <div className="block col-span-1 mb-6 bg-cover rounded-lg" style={{ backgroundImage: "url('assets/images/faq-question-information-helpdesk-graphic-word.jpg')" }}>
                         </div>
 
                         <div className="block col-span-2 mb-6">

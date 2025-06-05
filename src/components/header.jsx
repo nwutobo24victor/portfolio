@@ -38,7 +38,7 @@ const Header = () => {
                             <p className="space-x-2">
                                 <span className="font-bold w-4 h-4 bg-white text-black rounded px-1">FB</span> 250k
                             </p>
-                            <p>Loved by 1,500,000+ developers</p>
+                            <p>Loved by over hundreds of users</p>
                         </div>
                     </div>
                 </div>
