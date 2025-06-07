@@ -24,6 +24,10 @@ function Navbar() {
         `px-4 cursor-pointer border-[#3CAAFB] ${activeSection === id ? 'border-b-2' : 'hover:border-b-2'
         }`;
 
+
+    // modal
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <nav className="w-full block fixed top-0 left-0 z-50 bg-[#020013]">
             <div className="relative">
@@ -55,8 +59,9 @@ function Navbar() {
                         </a>
 
                         <a
-                            href="document/n_v_charles_cv_dev.pdf" download
-                            className="hidden lg:block w-fit bg-[#22274A] hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out"
+                            role="button"
+                            onClick={() => setIsModalOpen(true)}
+                            className="hidden lg:block w-fit bg-[#22274A] hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out cursor-pointer"
                         >
                             Download CV
                         </a>
@@ -79,11 +84,42 @@ function Navbar() {
                                 <button onClick={() => handleNavClick(item.id)}>{item.label}</button>
                             </li>
                         ))}
-                        <li className=" pt-10"><a href="document/n_v_charles_cv_dev.pdf" className="block w-full bg-[#3CAAFB] text-black cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
+                        <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="block w-full bg-[#3CAAFB] text-black cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
                     </ul>
                 </div>
             </div>
+
+
+            <div
+                className={`${isModalOpen ? "flex" : "hidden"} fixed inset-0 bg-black/80 backdrop-blur-sm flex justify-center items-center z-50`}>
+                <div className="bg-white rounded-lg shadow-lg w-11/12 md:w-3/4 lg:w-2/3 h-[90vh] relative">
+                    {/* Close button */}
+                    <button
+                        onClick={() => setIsModalOpen(false)}
+                        className="absolute top-3 right-3 text-gray-700 hover:text-gray-900 text-2xl font-bold h-8 w-8 bg-red-500 rounded-full flex items-center justify-center transition-colors duration-300 "
+                        aria-label="Close modal">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                fill="currentColor" viewBox="0 0 24 24" >
+                                <path d="M19.07 19.07c3.9-3.9 3.9-10.24 0-14.14C17.18 3.04 14.67 2 12 2S6.82 3.04 4.93 4.93c-3.9 3.9-3.9 10.24 0 14.14 1.95 1.95 4.51 2.92 7.07 2.92s5.12-.98 7.07-2.92M7.76 14.83 10.59 12 7.76 9.17l1.41-1.41L12 10.59l2.83-2.83 1.41 1.41L13.41 12l2.83 2.83-1.41 1.41L12 13.41l-2.83 2.83z"></path>
+                            </svg>
+                        </span>
+                    </button>
+
+                    {/* PDF Viewer */}
+                    <object
+                        data="document/26_05_25_n_v_charles_cv_dev.docx.pdf" type="application/pdf" className="w-full h-full"  >
+                        <p> Your browser does not support PDFs.{" "}
+                            <a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" download className="text-blue-600 underline"> Download the PDF  </a> .
+                        </p>
+                    </object>
+                </div>
+            </div>
+
         </nav>
+
+
+
     );
 }
 

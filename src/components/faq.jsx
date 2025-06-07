@@ -68,7 +68,7 @@ const Faq = () => {
                             </svg>
                         </span>
                     </p>
-                    <p className={isOpen === index ? 'block  p-4 ' : 'hidden'}>{faq.answer}</p>
+                    <p className={isOpen === index ? 'block  p-4 transition-transform duration-300 ease-in-out' : 'hidden'}>{faq.answer}</p>
                 </div>
             ))}
         </div>

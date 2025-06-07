@@ -71,8 +71,10 @@ const About = () => {
                                 </span>
                             </div>
                             <div className="block">
-                                <p className="text-lg font-bold">Cab Booking Platform (KJSG Cabs)</p>
-                                <p className="text-sm">Developed a fully functional ride-booking system with real-time tracking and payment integration — boosting efficiency and service delivery.</p>
+                                <p className="text-lg font-bold">Man O’ War Nigeria Website</p>
+                                <p className="text-sm">
+                                    Developed a professional website for Man O’ War Nigeria, boosting their online presence and fostering stronger community involvement. The site functions as a centralized platform for sharing news, updates, and key information about the organization's programs and initiatives.
+                                </p>
                             </div>
                         </div>
 
@@ -86,8 +88,10 @@ const About = () => {
                                 </span>
                             </div>
                             <div className="block">
-                                <p className="text-lg font-bold">Cab Booking Platform (KJSG Cabs)</p>
-                                <p className="text-sm">Developed a fully functional ride-booking system with real-time tracking and payment integration — boosting efficiency and service delivery.</p>
+                                <p className="text-lg font-bold">Mini Supermarket POS System</p>
+                                <p className="text-sm">
+                                    Designed and deployed a custom POS system for a mini supermarket, enhancing day-to-day retail operations. The solution features inventory control, sales monitoring, and customer management tools, significantly increasing operational efficiency and accuracy.
+                                </p>
                             </div>
                         </div>
 
@@ -101,8 +105,10 @@ const About = () => {
                                 </span>
                             </div>
                             <div className="block">
-                                <p className="text-lg font-bold">Cab Booking Platform (KJSG Cabs)</p>
-                                <p className="text-sm">Developed a fully functional ride-booking system with real-time tracking and payment integration — boosting efficiency and service delivery.</p>
+                                <p className="text-lg font-bold">Corporate Website for NAPEC</p>
+                                <p className="text-sm">
+                                    Designed and delivered a modern corporate website for NAPEC, emphasizing professionalism and ease of use. The platform showcases the company’s services and products through a clean interface, enhancing accessibility and brand presentation.
+                                </p>
                             </div>
                         </div>
                     </div>

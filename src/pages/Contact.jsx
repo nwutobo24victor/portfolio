@@ -1,26 +1,53 @@
 import React from "react";
+import axios from "axios";
+
+import { useEffect, useState } from "react";
 
 const Contact = () => {
 
+    const [isNotificationVisible, setIsNotificationVisible] = useState(false);
+    const [message, setMessage] = useState("");
+
+    const triggerNotification = (msg) => {
+        setMessage(msg);
+        setIsNotificationVisible(true);
+
+        setTimeout(() => {
+            setIsNotificationVisible(false);
+        }, 3000);
+    };
 
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault(); // prevent page reload
         const formData = new FormData(e.target);
 
-        // Convert FormData to plain object (optional)
+        // Convert FormData to plain object
         const data = Object.fromEntries(formData.entries());
-        console.log('Form submitted:', data);
+        // console.log('Form submitted:', data);
 
-        // You can send `formData` directly to an API if needed:
-        // fetch('/api/contact', { method: 'POST', body: formData });
-        fetch('http://localhost:5173/contact/api', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data),
-        });
+        try {
+            const response = await axios.post('http://account.local/register.php', data, {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            console.log('Response:', response.data);
+            if (response.data) {
+                const notification = document.getElementById('notification');
+                notification.textContent = response.data.message;
+                e.target.reset(); // Reset the form
 
+
+                triggerNotification(response.data.message);
+
+
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
     };
+
 
 
     return (
@@ -28,6 +55,11 @@ const Contact = () => {
 
             <section className="w-full">
                 <div className="block flex items-center justify-center gap-6 w-full h-screen p-4">
+
+                    <div className={`${isNotificationVisible ? 'block' : 'hidden'} absolute top-0 right-0 z-10 p-4`}>
+                        <p id="notification" className="border-l-4 border-blue-500 bg-white p-2 text-gray-700">{message}</p>
+                    </div>
+
                     <div className="block w-full lg:w-1/3 rounded-lg ">
                         <a href="./"><img src="./assets/images/nwutobo_short.png" width="100" className="mx-auto" /></a>
                         <h1 className="text-3xl font-bold mb-4 text-center">Contact Us</h1>
