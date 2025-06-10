@@ -77,7 +77,7 @@ const Experience = () => {
 
             <div className="block mt-10">
                 <p className="text-lg font-semibold mb-4">Interested in collaborating or have questions?</p>
-                <a href="/contact" className="w-fit bg-[#3CAAFB] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out">Contact</a>
+                <a href="/contact" className="drop-shadow-[0_0_10px_#3CAAFB] w-fit bg-[#3CAAFB] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out">Contact</a>
             </div>
         </div>
     )

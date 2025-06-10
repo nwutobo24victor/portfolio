@@ -43,23 +43,23 @@ const Skills = () => {
 
                 <h3 hidden class="text-xl font-semibold text-[#3CAAFB] mb-4">Tech Logos</h3>
                 <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 items-center justify-center p-4">
-                    <img src="./assets/images/stacks/details-icon-html.png" alt="HTML" title="HTML" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/details-icon-css.png" alt="CSS" title="CSS" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/details-icon-javascript.png" alt="JavaScript" title="JavaScript" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/php.png" alt="PHP" title="PHP" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/laravel.png" alt="Laravel" title="Laravel" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/nodejs.png" alt="Node.js" title="Node.js" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/react.png" alt="React.js" title="React.js" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/alpine_js.png" alt="Alpine.js" title="Alpine.js" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/jquery.png" alt="jQuery" title="jQuery" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/details-icon-bootstrap.png" alt="Bootstrap" title="Bootstrap" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/tailwind.jpg" alt="Tailwind CSS" title="Tailwind CSS" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/mysql.png" alt="MySQL" title="MySQL" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/sqlite.jpg" alt="SQLite" title="SQLite" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/mongodb.png" alt="MongoDB" title="MongoDB" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/git.jpg" alt="Git" title="Git" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/coreldraw.png" alt="CorelDRAW" title="CorelDRAW" class="h-12 mx-auto rounded-lg hover:opacity-70" />
-                    <img src="./assets/images/stacks/photoshop.png" alt="Photoshop" title="Adobe Photoshop" class="h-12 mx-auto rounded-lg hover:opacity-70" />
+                    <img src="./assets/images/stacks/details-icon-html.png" alt="HTML" title="HTML" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/details-icon-css.png" alt="CSS" title="CSS" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/details-icon-javascript.png" alt="JavaScript" title="JavaScript" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/php.png" alt="PHP" title="PHP" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/laravel.png" alt="Laravel" title="Laravel" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/nodejs.png" alt="Node.js" title="Node.js" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/react.png" alt="React.js" title="React.js" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/alpine_js.png" alt="Alpine.js" title="Alpine.js" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/jquery.png" alt="jQuery" title="jQuery" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/details-icon-bootstrap.png" alt="Bootstrap" title="Bootstrap" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/tailwind.jpg" alt="Tailwind CSS" title="Tailwind CSS" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/mysql.png" alt="MySQL" title="MySQL" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/sqlite.jpg" alt="SQLite" title="SQLite" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/mongodb.png" alt="MongoDB" title="MongoDB" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/git.jpg" alt="Git" title="Git" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/coreldraw.png" alt="CorelDRAW" title="CorelDRAW" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
+                    <img src="./assets/images/stacks/photoshop.png" alt="Photoshop" title="Adobe Photoshop" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
                 </div>
             </div>
         </div>

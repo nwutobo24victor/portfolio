@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useEffect } from "react";
+
 
 function Navbar() {
     const [isHidden, setIsHidden] = useState(true);
@@ -25,6 +27,36 @@ function Navbar() {
         }`;
 
 
+
+    // // State to manage the visibility of the modal
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+            for (const item of menuItems) {
+                const el = document.getElementById(item.id);
+                if (el) {
+                    const { top, bottom } = el.getBoundingClientRect();
+                    const elementTop = window.scrollY + top;
+                    const elementBottom = window.scrollY + bottom;
+
+                    if (scrollPosition >= elementTop && scrollPosition < elementBottom) {
+                        setActiveSection(item.id);
+                        break;
+                    }
+                }
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+
+
     // modal
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -36,7 +68,7 @@ function Navbar() {
 
                     <p className="hidden lg:flex items-center gap-2">
                         <img src="./assets/images/nwutobo_short.png" width="30" />
-                        <span className="text-3xl font-bold">Nwutobo Victor Charles</span>
+                        <span className="text-3xl font-bold">Victor Charles Nwutobo</span>
                     </p>
 
                     {/* Desktop Nav */}
@@ -53,7 +85,7 @@ function Navbar() {
                     <div className="flex gap-2 items-center text-white">
                         <a
                             href="/contact"
-                            className="w-fit bg-[#3CAAFB] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out"
+                            className="drop-shadow-[0_0_10px_#3CAAFB] w-fit bg-[#3CAAFB] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out"
                         >
                             Contact
                         </a>
@@ -77,15 +109,17 @@ function Navbar() {
                 </div>
 
                 {/* Mobile Nav */}
-                <div className={`${isHidden ? 'hidden' : ''} absolute w-54 bg-[#02001340] z-50 backdrop-blur-sm text-white h-screen right-0 py-10`}>
-                    <ul className="block space-y-3">
-                        {menuItems.map(item => (
-                            <li key={item.id} className={getClass(item.id)}>
-                                <button onClick={() => handleNavClick(item.id)}>{item.label}</button>
-                            </li>
-                        ))}
-                        <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="block w-full bg-[#3CAAFB] text-black cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
-                    </ul>
+                <div className={`${isHidden ? 'hidden' : ''} absolute w-full bg-[#02001340] z-50 backdrop-blur-sm text-white h-screen right-0  flex justify-end`}>
+                    <div className="w-54 bg-[#020013] shadow-lg py-10 px-2">
+                        <ul className="block space-y-3">
+                            {menuItems.map(item => (
+                                <li key={item.id} className={getClass(item.id)}>
+                                    <button onClick={() => handleNavClick(item.id)}>{item.label}</button>
+                                </li>
+                            ))}
+                            <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full bg-[#3CAAFB] text-black cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

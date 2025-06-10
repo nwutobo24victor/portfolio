@@ -16,7 +16,7 @@ const Projects = () => {
                 </header>
 
                 <div className="grid gap-12 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://manowarng.org" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/mown_project.jpeg" alt="Man O' War Nigeria Blog Project Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -29,7 +29,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://manowarng.org" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/pos_project.png" alt="POS and Inventory Management System Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -42,7 +42,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://recruitment.manowarng.org" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/mown_rec.jpeg" alt="Recruitment Platform Project Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -55,7 +55,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://dragsdev.com.ng" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/drags_project.jpeg" alt="Drags Development Website Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -68,7 +68,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="https://stpaulsonline.ng/" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/stpauls_project.jpeg" alt="St Pauls Online Store Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -81,7 +81,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://kjsgcab.icu" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/kjsg_project.jpeg" alt="KJSG Cab Booking Project Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -94,7 +94,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://survey.manowarng.org" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/survey_project.jpeg" alt="Survey Platform Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -107,7 +107,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://napec.ing" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/napec_project.jpeg" alt="Napec Security Services Screenshot" className="w-full h-52 object-cover" />
                         </a>

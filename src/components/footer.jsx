@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="block w-full text-white py-4">
             <div className="flex items-center justify-between">
-                <p className="text-sm font-bold text-center">&copy; {year} Nwutobo Victor Charles.</p>
+                <p className="text-sm font-bold text-center">&copy; {year} Victor Charles Nwutobo.</p>
 
                 <p className="flex items-center justify-center gap-4 text-white">
                     <a href="https://github.com/nwutobo24victor" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-all duration-300 ease-in-out">
