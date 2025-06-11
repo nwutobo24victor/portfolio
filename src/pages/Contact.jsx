@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Contact = () => {
 
@@ -18,9 +18,12 @@ const Contact = () => {
     };
 
 
+    const [submitting, setSubmitting] = useState(false);
     const handleSubmit = async (e) => {
         e.preventDefault(); // prevent page reload
         const formData = new FormData(e.target);
+
+        setSubmitting(true); // Disable button
 
         // Convert FormData to plain object
         const data = Object.fromEntries(formData.entries());
@@ -43,8 +46,12 @@ const Contact = () => {
 
 
             }
+
+            setSubmitting(false); // Re-enable button
         } catch (error) {
             console.error('Error submitting form:', error);
+
+            setSubmitting(false); // Re-enable button
         }
     };
 
@@ -82,7 +89,9 @@ const Contact = () => {
                             </div>
 
                             <div className="block" data-aos="fade-up">
-                                <button type="submit" className="w-full bg-[#3CAAFB] hover:opacity-80 hover:scale-105 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out">Send Message</button>
+                                <button type="submit" className={`w-full bg-[#3CAAFB]  text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out ${submitting ? 'cursor-not-allowed opacity-50' : 'hover:opacity-80 hover:scale-105'}`}>
+                                    {submitting ? 'Sending...' : 'Send Message'}
+                                </button>
                             </div>
                         </form>
 
