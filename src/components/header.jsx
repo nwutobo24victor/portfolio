@@ -46,8 +46,8 @@ const Header = () => {
 
             </div>
 
-            <div className="hidden lg:flex justify-end w-full" data-aos="flip-left">
-                <img src="./assets/images/hero-img.webp" alt="" />
+            <div className="hidden lg:flex justify-end w-full bg-whites" data-aos="flip-left">
+                <img src="./assets/images/mywebimage.webp" alt="" className="w-[90%]" />
             </div>
         </div>
     )
