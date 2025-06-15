@@ -30,7 +30,7 @@ const Contact = () => {
         // console.log('Form submitted:', data);
 
         try {
-            const response = await axios.post('http://account.local/register.php', data, {
+            const response = await axios.post('https://nwutobovictorcharles.dragsdev.com.ng/mailer_config/register.php', data, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
