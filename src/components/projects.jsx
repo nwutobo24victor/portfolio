@@ -30,7 +30,7 @@ const Projects = () => {
                     </article>
 
                     <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
-                        <a href="http://manowarng.org" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/nwutobo24victor/case_study_pos" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/pos_project.png" alt="POS and Inventory Management System Screenshot" className="w-full h-52 object-cover" />
                         </a>
                         <div className="p-6">
@@ -38,7 +38,7 @@ const Projects = () => {
                             <p className="text-sm text-gray-400 mb-3">
                                 Developed for Presto Mart LTD, this system ensures seamless sales and inventory tracking for retail operations.
                             </p>
-                            <a href="http://manowarng.org" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">View Case Study</a>
+                            <a href="https://github.com/nwutobo24victor/case_study_pos" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">View Case Study</a>
                         </div>
                     </article>
 
@@ -51,13 +51,13 @@ const Projects = () => {
                             <p className="text-sm text-gray-400 mb-3">
                                 An optimized platform that facilitates seamless recruitment processes for Man O' War Nigeria.
                             </p>
-                            <a href="http://recruitment.manowarng.org" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Explore Platform</a>
+                            <a href="http://recruitment.manowarng.org" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Visit Website</a>
                         </div>
                     </article>
 
                     <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://dragsdev.com.ng" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/images/drags_project.jpeg" alt="Drags Development Website Screenshot" className="w-full h-52 object-cover" />
+                            <img src="assets/images/drags_dev.jpeg" alt="Drags Development Website Screenshot" className="w-full h-52 object-cover" />
                         </a>
                         <div className="p-6">
                             <h3 className="text-xl font-semibold mb-2">Drags Development</h3>
@@ -77,7 +77,7 @@ const Projects = () => {
                             <p className="text-sm text-gray-400 mb-3">
                                 An e-commerce platform tailored for selling Catholic literature and spiritual items.
                             </p>
-                            <a href="https://stpaulsonline.ng/" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Visit Store</a>
+                            <a href="https://stpaulsonline.ng/" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Visit Website</a>
                         </div>
                     </article>
 
@@ -90,7 +90,7 @@ const Projects = () => {
                             <p className="text-sm text-gray-400 mb-3">
                                 A responsive ride-booking platform designed for a fast and secure cab service experience.
                             </p>
-                            <a href="http://kjsgcab.icu" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">See Details</a>
+                            <a href="http://kjsgcab.icu" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Visit Website</a>
                         </div>
                     </article>
 
@@ -103,11 +103,11 @@ const Projects = () => {
                             <p className="text-sm text-gray-400 mb-3">
                                 Built to collect user feedback and help organizations make data-driven decisions.
                             </p>
-                            <a href="http://survey.manowarng.org" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Visit Survey Site</a>
+                            <a href="http://survey.manowarng.org" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Visit Website</a>
                         </div>
                     </article>
 
-                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
+                    <article hidden className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
                         <a href="http://napec.ing" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/napec_project.jpeg" alt="Napec Security Services Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -117,6 +117,19 @@ const Projects = () => {
                                 A corporate site for a security company offering expert personnel and security gadgets.
                             </p>
                             <a href="http://napec.ing" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">Explore Website</a>
+                        </div>
+                    </article>
+
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#3CAAFB]/20" data-aos="flip-left">
+                        <a href="https://github.com/nwutobo24victor/flight" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/flight_search.jpeg" alt="Flight Search Screenshot" className="w-full h-52 object-cover" />
+                        </a>
+                        <div className="p-6">
+                            <h3 className="text-xl font-semibold mb-2">Flight Search with Amadeus Self Service API</h3>
+                            <p className="text-sm text-gray-400 mb-3">
+                                A simple tool that uses the Amadeus Self-Service API to search and display real-time flight options based on user input.
+                            </p>
+                            <a href="https://github.com/nwutobo24victor/flight" target="_blank" className="text-[#3CAAFB] font-medium hover:underline">View Project</a>
                         </div>
                     </article>
                 </div>

@@ -61,6 +61,8 @@ const Contact = () => {
         <main className="w-full text-white bg-[#020013]">
 
             <section className="w-full">
+
+
                 <div className="block flex items-center justify-center gap-6 w-full h-screen p-4">
 
                     <div className={`${isNotificationVisible ? 'block' : 'hidden'} absolute top-0 right-0 z-10 p-4`}>
