@@ -1,7 +1,6 @@
-import React from "react";
-import axios from "axios";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
-import { useState } from "react";
 
 const Contact = () => {
 
@@ -20,40 +19,41 @@ const Contact = () => {
 
     const [submitting, setSubmitting] = useState(false);
     const handleSubmit = async (e) => {
-        e.preventDefault(); // prevent page reload
-        const formData = new FormData(e.target);
+        e.preventDefault();
+        setSubmitting(true);
 
-        setSubmitting(true); // Disable button
-
-        // Convert FormData to plain object
-        const data = Object.fromEntries(formData.entries());
-        // console.log('Form submitted:', data);
+        const form = e.target;
 
         try {
-            const response = await axios.post('https://nwutobovictorcharles.dragsdev.com.ng/mailer_config/register.php', data, {
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-            });
-            console.log('Response:', response.data);
-            if (response.data) {
-                const notification = document.getElementById('notification');
-                notification.textContent = response.data.message;
-                e.target.reset(); // Reset the form
+            // Send to Admin
+            const adminResult = await emailjs.sendForm(
+                'service_pccq2xy',
+                'template_ztmlajo', // template for admin
+                form,
+                'Zs3SKBJNupNoviVO1'
+            );
 
+            // Send to User
+            const userResult = await emailjs.sendForm(
+                'service_pccq2xy',
+                'template_wv5c80h', // template for user
+                form,
+                'Zs3SKBJNupNoviVO1'
+            );
 
-                triggerNotification(response.data.message);
+            console.log('Admin Email:', adminResult.text);
+            console.log('User Email:', userResult.text);
 
-
-            }
-
-            setSubmitting(false); // Re-enable button
+            triggerNotification('Form submitted successfully!');
+            form.reset();
         } catch (error) {
-            console.error('Error submitting form:', error);
-
-            setSubmitting(false); // Re-enable button
+            console.error('EmailJS error:', error);
+            triggerNotification('Failed to send form. Please try again.');
         }
+
+        setSubmitting(false);
     };
+
 
 
 
