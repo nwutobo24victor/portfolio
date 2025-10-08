@@ -12,7 +12,7 @@ const About = () => {
                 </div>
 
                 <div className="lg:w-3/4 w-full mb-6">
-                    <p className="text-4xl font-bold mb-4">About <span className="text-[#3CAAFB]">Me</span></p>
+                    <p className="text-4xl font-bold mb-4">About <span className="text-[#27ce80]">Me</span></p>
                     <div className="block">
                         <p className="text-lg mb-4">I’m Nwutobo Victor Charles, a results-driven Full-Stack Web Developer and ICT Specialist with a passion for building innovative digital solutions that solve real-world problems. As co-founder of Drags Development (DragsDev) and Passtech Innovation, I specialize in designing and developing high-performance web applications, streamlining IT infrastructures, and driving digital transformation across various industries.</p>
                         <p className="text-lg mb-4">With hands-on experience in PHP, Laravel, JavaScript, MySQL, and system architecture, I’ve successfully delivered projects ranging from cab booking platforms and e-commerce systems to organizational websites and custom business tools. My approach prioritizes clean code, responsive design, and seamless user experience — all aligned with business objectives.</p>
@@ -47,7 +47,7 @@ const About = () => {
                     <p className="text-lg font-bold mb-4">Notable Projects & Achievements</p>
                     <div className="grid lg:grid-cols-2 grid-col-1 lg:gap-6 gap-2">
                         <div className="flex items-center col-span-1 bg-[#020013] p-2 rounded-lg mb-1" data-aos="fade-up">
-                            <div className="block bg-[#3CAAFB] rounded-full p-2 mr-4">
+                            <div className="block bg-[#27ce80] rounded-full p-2 mr-4">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         fill="currentColor" viewBox="0 0 24 24" >
@@ -62,7 +62,7 @@ const About = () => {
                         </div>
 
                         <div className="flex items-center col-span-1 bg-[#020013] p-2 rounded-lg mb-1" data-aos="fade-up">
-                            <div className="block bg-[#3CAAFB] rounded-full p-2 mr-4">
+                            <div className="block bg-[#27ce80] rounded-full p-2 mr-4">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         fill="currentColor" viewBox="0 0 24 24" >
@@ -79,7 +79,7 @@ const About = () => {
                         </div>
 
                         <div className="flex items-center col-span-1 bg-[#020013] p-2 rounded-lg mb-1" data-aos="fade-up">
-                            <div className="block bg-[#3CAAFB] rounded-full p-2 mr-4">
+                            <div className="block bg-[#27ce80] rounded-full p-2 mr-4">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         fill="currentColor" viewBox="0 0 24 24" >
@@ -96,7 +96,7 @@ const About = () => {
                         </div>
 
                         <div className="flex items-center col-span-1 bg-[#020013] p-2 rounded-lg mb-1" data-aos="fade-up">
-                            <div className="block bg-[#3CAAFB] rounded-full p-2 mr-4">
+                            <div className="block bg-[#27ce80] rounded-full p-2 mr-4">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                         fill="currentColor" viewBox="0 0 24 24" >

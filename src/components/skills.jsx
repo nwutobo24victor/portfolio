@@ -11,12 +11,12 @@ const Skills = () => {
                     With over 5 years of experience in full-stack web development, I specialize in creating modern, scalable, and efficient digital solutions. My approach is results-driven, blending technical expertise with creativity to deliver platforms that are optimized for performance and user experience.
                 </p>
 
-                <h3 class="text-xl font-semibold text-[#3CAAFB] mb-2">Development Tools</h3>
+                <h3 class="text-xl font-semibold text-[#27ce80] mb-2">Development Tools</h3>
                 <p class=" mb-6">
                     I leverage industry-standard tools including Visual Studio Code, Git, GitHub, Postman, and design applications like CorelDRAW and Adobe Photoshop for both frontend and backend development, prototyping, and interface design.
                 </p>
 
-                <h3 class="text-xl font-semibold text-[#3CAAFB] mb-2">Tech Stack & Expertise</h3>
+                <h3 class="text-xl font-semibold text-[#27ce80] mb-2">Tech Stack & Expertise</h3>
                 <p class=" mb-10">
                     My core stack covers frontend, backend, database, and design technologies. I build and maintain applications using:
                 </p>
@@ -41,7 +41,7 @@ const Skills = () => {
                     <li className="hover:text-white">Adobe Photoshop</li>
                 </ul>
 
-                <h3 hidden class="text-xl font-semibold text-[#3CAAFB] mb-4">Tech Logos</h3>
+                <h3 hidden class="text-xl font-semibold text-[#27ce80] mb-4">Tech Logos</h3>
                 <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 items-center justify-center p-4">
                     <img src="./assets/images/stacks/details-icon-html.png" alt="HTML" title="HTML" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />
                     <img src="./assets/images/stacks/details-icon-css.png" alt="CSS" title="CSS" class="h-12 mx-auto rounded-lg hover:opacity-70 hover:drop-shadow-[0_0_10px_#3CAAFB]" />

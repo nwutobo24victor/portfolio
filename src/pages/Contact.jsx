@@ -91,7 +91,7 @@ const Contact = () => {
                             </div>
 
                             <div className="block" data-aos="fade-up">
-                                <button type="submit" className={`w-full bg-[#3CAAFB]  text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out ${submitting ? 'cursor-not-allowed opacity-50' : 'hover:opacity-80 hover:scale-105'}`}>
+                                <button type="submit" className={`w-full bg-[#27ce80]  text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out ${submitting ? 'cursor-not-allowed opacity-50' : 'hover:opacity-80 hover:scale-105'}`}>
                                     {submitting ? 'Sending...' : 'Send Message'}
                                 </button>
                             </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                                 </a>
                             </div>
 
-                            <div className="p-4 rounded-lg bg-[#11142B] hover:bg-[#213d56cf] w-full mb-4">
+                            <div className="p-4 rounded-lg bg-[#413bff30] hover:bg-[#413bffcf] w-full mb-4">
                                 <a href="tel:+2348089179206" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full">
                                     <img src="./assets/images/call-blue-icon.webp" alt="" width={"20px"} />
                                     <span className="block">Call Us: +234 808 917 9206</span>

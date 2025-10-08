@@ -11,8 +11,7 @@ const Header = () => {
                 </p>
 
                 <h1 className="lg:text-6xl text-4xl lg:text-left text-center font-bold text-white" data-aos="fade-up">
-                    <span className="drop-shadow-[0_0_10px_#3CAAFB]">Victor Charles — </span><br />
-                    <span className="text-[#3CAAFB]">Beautifully designed, </span>
+                    <span className="text-[#27ce80]">Beautifully designed, </span>
                     <span className="text-white ">technically sound, built to perform.</span>
                 </h1>
 
@@ -22,7 +21,7 @@ const Header = () => {
                 </p>
 
                 <p className="block lg:flex items-center gap-4 ">
-                    <a role="button" className="block w-full mb-3 bg-[#3CAAFB] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-3 transition-all duration-300 ease-in-out" data-aos="fade-up">Bring Your Ideas to Life</a>
+                    <a role="button" className="block w-full mb-3 bg-[#27ce80] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-3 transition-all duration-300 ease-in-out" data-aos="fade-up">Bring Your Ideas to Life</a>
                     <a href="./contact" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full mb-3 bg-[#22274A50] hover:opacity-80 text-white font-semibold rounded-lg px-6 py-3 transition-all duration-300 ease-in-out" data-aos="fade-up">Get a Free Quote</a>
                 </p>
 
@@ -35,7 +34,7 @@ const Header = () => {
                     </div>
 
                     <div className="block w-full mb-3" data-aos="fade-up">
-                        <div className="w-full space-y-1 rounded-lg bg-[#22274A50] px-6 py-4 text-light-200">
+                        <div className="w-full space-y-1 rounded-lg bg-[#27ce8050] px-6 py-4 text-light-200">
                             <p className="space-x-2 text-xl font-semibold flex items-center gap-2">
                                 <span className="font-bold w-6 h-6 bg-white text-black rounded px-2 flex items-center justify-center">🌍</span> 5K+ Users Impacted
                             </p>

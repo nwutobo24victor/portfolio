@@ -26,7 +26,7 @@ const Home = () => {
 
                     <div id="about"></div>
                 </header>
-                <section className="w-full mb-20 bg-[#22274A] lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
+                <section className="w-full mb-20 bg-[#27ce8030] lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
                     <About />
 
                     <div id="experience"></div>
@@ -39,7 +39,7 @@ const Home = () => {
                 </section>
 
 
-                <section className="w-full mb-20 bg-[#22274A]  lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
+                <section className="w-full mb-20 bg-[#27ce8030]  lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
                     <Skills />
 
                     <div id="projects"></div>
@@ -65,7 +65,7 @@ const Home = () => {
 
                 <section className="w-full mb-20">
 
-                    <p className="text-4xl font-bold mb-4">Frequently Asked <span className="text-[#3CAAFB]">Questions</span></p>
+                    <p className="text-4xl font-bold mb-4">Frequently Asked <span className="text-[#27ce80]">Questions</span></p>
 
                     <div className="block grid lg:grid-cols-3 grid-cols-1 gap-6 w-full">
                         <div className="block col-span-1 mb-6 bg-cover rounded-lg" style={{ backgroundImage: "url('assets/images/faq-question-information-helpdesk-graphic-word.jpg')" }}>
@@ -80,7 +80,7 @@ const Home = () => {
 
             </div>
 
-            <footer className="w-full bg-[#22274A50] lg:px-10 px-2 py-2">
+            <footer className="w-full bg-[#27ce8050] lg:px-10 px-2 py-2">
                 <Footer />
             </footer>
         </main >

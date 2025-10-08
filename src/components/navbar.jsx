@@ -23,7 +23,7 @@ function Navbar() {
     ];
 
     const getClass = (id) =>
-        `px-4 cursor-pointer border-[#3CAAFB] ${activeSection === id ? 'border-b-2' : 'hover:border-b-2'
+        `px-4 cursor-pointer border-[#27ce80] ${activeSection === id ? 'border-b-2' : 'hover:border-b-2'
         }`;
 
 
@@ -85,7 +85,7 @@ function Navbar() {
                     <div className="flex gap-2 items-center text-white">
                         <a
                             href="/contact"
-                            className="drop-shadow-[0_0_10px_#3CAAFB] w-fit bg-[#3CAAFB] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out"
+                            className=" w-fit bg-[#27ce80] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out"
                         >
                             Contact
                         </a>
@@ -93,7 +93,7 @@ function Navbar() {
                         <a
                             role="button"
                             onClick={() => setIsModalOpen(true)}
-                            className="hidden lg:block w-fit bg-[#22274A] hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out cursor-pointer"
+                            className="hidden lg:block w-fit bg-[#413bff] hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out cursor-pointer"
                         >
                             Download CV
                         </a>
@@ -117,7 +117,7 @@ function Navbar() {
                                     <button onClick={() => handleNavClick(item.id)}>{item.label}</button>
                                 </li>
                             ))}
-                            <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full bg-[#3CAAFB] text-black cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
+                            <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full bg-[#27ce80] text-black cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
                         </ul>
                     </div>
                 </div>
