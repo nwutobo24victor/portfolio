@@ -107,7 +107,7 @@ const Projects = () => {
                         </div>
                     </article>
 
-                    <article hidden className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#27ce80]/20" data-aos="flip-left">
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#27ce80]/20" data-aos="flip-left">
                         <a href="http://napec.ing" target="_blank" rel="noopener noreferrer">
                             <img src="assets/images/napec_project.jpeg" alt="Napec Security Services Screenshot" className="w-full h-52 object-cover" />
                         </a>
@@ -116,7 +116,7 @@ const Projects = () => {
                             <p className="text-sm text-gray-400 mb-3">
                                 A corporate site for a security company offering expert personnel and security gadgets.
                             </p>
-                            <a href="http://napec.ing" target="_blank" className="text-[#27ce80] font-medium hover:underline">Explore Website</a>
+                            <a href="http://napec.ing" target="_blank" className="text-[#27ce80] font-medium hover:underline">Visit Website</a>
                         </div>
                     </article>
 
