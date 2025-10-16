@@ -56,6 +56,16 @@ const slide = () => {
                             <span className="block">E-commerce Entrepreneur</span>
                         </p>
                     </div>
+
+                    <div className="w-full space-y-1 rounded-lg bg-[#27ce8050] p-4 text-light-200 slide ">
+                        <p className="block text-base mb-4">
+                            Charles created an amazing and polished website for our company. The design truly reflects our brand and has helped us draw in more clients across the country.
+                        </p>
+                        <p className="block">
+                            <span className="block font-bold">Salaudeen. ⭐⭐⭐⭐⭐</span>
+                            <span className="block">Renes Hicy International Ltd.</span>
+                        </p>
+                    </div>
                 </div>
 
             </div>

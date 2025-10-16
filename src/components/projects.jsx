@@ -132,6 +132,32 @@ const Projects = () => {
                             <a href="https://github.com/nwutobo24victor/flight" target="_blank" className="text-[#27ce80] font-medium hover:underline">View Project</a>
                         </div>
                     </article>
+
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#27ce80]/20" data-aos="flip-left">
+                        <a href="https://reneshicy.com.ng/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/reneshicy_project.png" alt="Renes Hicy Screenshot" className="w-full h-52 object-cover" />
+                        </a>
+                        <div className="p-6">
+                            <h3 className="text-xl font-semibold mb-2">Renes Hicy International LTD</h3>
+                            <p className="text-sm text-gray-400 mb-3">
+                                A corporate website for a building and interior finishing company showcasing quality tiles, plumbing fixtures, security doors, and elegant home improvement materials.
+                            </p>
+                            <a href="https://reneshicy.com.ng/" target="_blank" className="text-[#27ce80] font-medium hover:underline">View Website</a>
+                        </div>
+                    </article>
+
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#27ce80]/20" data-aos="flip-left">
+                        <a href="https://d-young-unlimited-cre8tivity.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/d-young-creative.jpeg" alt="Renes Hicy Screenshot" className="w-full h-52 object-cover" />
+                        </a>
+                        <div className="p-6">
+                            <h3 className="text-xl font-semibold mb-2">D’Young Unlimited Cre8tivity</h3>
+                            <p className="text-sm text-gray-400 mb-3">
+                                A dynamic website for a fashion and branding company showcasing creative tailoring, custom uniforms, branded merchandise, and premium printing services that express identity, confidence, and style.
+                            </p>
+                            <a href="https://d-young-unlimited-cre8tivity.vercel.app/" target="_blank" className="text-[#27ce80] font-medium hover:underline">View Website</a>
+                        </div>
+                    </article>
                 </div>
             </div>
 
