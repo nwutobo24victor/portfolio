@@ -158,6 +158,19 @@ const Projects = () => {
                             <a href="https://d-young-unlimited-cre8tivity.vercel.app/" target="_blank" className="text-[#27ce80] font-medium hover:underline">View Website</a>
                         </div>
                     </article>
+
+                    <article className="bg-[#22274A50] rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#27ce80]/20" data-aos="flip-left">
+                        <a href="https://github.com/nwutobo24victor/video-voice-call.git" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/telcom-video-call.jpeg" alt="Video Call App Screenshot" className="w-full h-52 object-cover" />
+                        </a>
+                        <div className="p-6">
+                            <h3 className="text-xl font-semibold mb-2">Real-Time Video Call App</h3>
+                            <p className="text-sm text-gray-400 mb-3">
+                                A real-time video calling web application built with PHP, JavaScript, and WebRTC, enabling secure peer-to-peer video calls directly in the browser with seamless streaming and fast signaling.
+                            </p>
+                            <a href="https://github.com/nwutobo24victor/video-voice-call.git" target="_blank" className="text-[#27ce80] font-medium hover:underline">View Project</a>
+                        </div>
+                    </article>
                 </div>
             </div>
 
