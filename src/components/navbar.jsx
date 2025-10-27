@@ -110,14 +110,14 @@ function Navbar() {
 
                 {/* Mobile Nav */}
                 <div className={`${isHidden ? 'hidden' : ''} absolute w-full bg-[#02001340] z-50 backdrop-blur-sm text-white h-screen right-0  flex justify-end`}>
-                    <div className="w-54 bg-[#020013] shadow-lg py-10 px-2">
+                    <div className="w-70 bg-[#020013] shadow-lg py-10 px-2">
                         <ul className="block space-y-3">
                             {menuItems.map(item => (
                                 <li key={item.id} className={getClass(item.id)}>
                                     <button onClick={() => handleNavClick(item.id)}>{item.label}</button>
                                 </li>
                             ))}
-                            <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full bg-[#27ce80] text-black cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
+                            <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full bg-[#27ce80] text-black text-center cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
                         </ul>
                     </div>
                 </div>
