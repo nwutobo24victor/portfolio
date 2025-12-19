@@ -3,7 +3,7 @@ import React from "react";
 export const projects = [
     {
         title: "Man O' War Nigeria Blog",
-        image: "assets/images/mown_project.jpeg",
+        image: "assets/images/new_manowarng.org.jpeg",
         link: "http://manowarng.org",
         description:
             "A blog platform built to share updates, articles, and activities about the organization’s mission and impact.",
