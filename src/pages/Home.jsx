@@ -4,7 +4,8 @@ import Header from "../components/header";
 import About from "../components/about";
 import Experience from "../components/experience";
 import Skills from "../components/skills";
-import Projects from "../components/projects";
+import ProjectFew from "../components/projectFew";
+import GraphicsSlide from "../components/graphicsSlide";
 import Iframe from "../components/iframe";
 import Testimonial from "../components/testimonials";
 import Faq from "../components/faq";
@@ -24,31 +25,37 @@ const Home = () => {
                 <header className="w-full mb-20" data-aos="fade-up">
                     <Header />
 
-                    <div id="about"></div>
+                    <div id="about" className="mb-20"></div>
                 </header>
                 <section className="w-full mb-20 bg-[#27ce8030] lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
                     <About />
 
-                    <div id="experience"></div>
+                    <div id="experience" className="mb-20"></div>
                 </section>
 
                 <section className="w-full mb-20 lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
                     <Experience />
 
-                    <div id="skills"></div>
+                    <div id="skills" className="mb-20"></div>
                 </section>
 
 
                 <section className="w-full mb-20 bg-[#27ce8030]  lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
                     <Skills />
 
-                    <div id="projects"></div>
+                    <div id="projects" className="mb-20"></div>
                 </section>
 
                 <section id="projects" className="w-full mb-20 lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
-                    <Projects />
+                    <ProjectFew />
 
-                    <div id="testimonials"></div>
+                    <div id="graphics" className="mb-20"></div>
+                </section>
+
+                <section className="w-full mb-20 bg-[#27ce8030]  lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
+                    <GraphicsSlide />
+
+                    <div id="testimonials" className="mb-20"></div>
                 </section>
 
                 <section id="testimonials" className="w-full mb-20">

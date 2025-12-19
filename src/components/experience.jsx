@@ -77,7 +77,9 @@ const Experience = () => {
 
             <div className="block mt-10">
                 <p className="text-lg font-semibold mb-4">Interested in collaborating or have questions?</p>
-                <a href="/contact" className="w-fit bg-[#27ce80] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out">Contact</a>
+                <a href="/contact" className="w-fit bg-[#27ce80] hover:opacity-80 text-black font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out flex gap-1 items-center">Contact
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Arrow-right SVG Icon</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" /></svg>
+                </a>
             </div>
         </div>
     )

@@ -5,6 +5,8 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Projetct from './pages/Project';
+import Graphics from './pages/Graphics';
 import Cursor from './components/cursor';
 
 import AOS from 'aos';
@@ -14,8 +16,9 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration
-      once: false  // whether animation should happen only once
+      duration: 1000,
+      once: false,
+      easing: "ease-in-out",
     });
   }, []);
 
@@ -27,6 +30,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projetct />} />
+        <Route path="/graphics" element={<Graphics />} />
       </Routes>
     </div>
   );

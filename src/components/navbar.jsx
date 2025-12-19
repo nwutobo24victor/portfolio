@@ -1,82 +1,42 @@
 import { useState } from "react";
-import { useEffect } from "react";
-
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
     const [isHidden, setIsHidden] = useState(true);
-    const [activeSection, setActiveSection] = useState('home'); // 👈 Track active
 
+    // mobile nav toggle
     const toggleVisibility = () => setIsHidden(!isHidden);
+    // modal
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const handleNavClick = (id) => {
-        setActiveSection(id);
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-        setIsHidden(true); // 👈 Optional: auto-close mobile menu
-    };
 
     const menuItems = [
         { id: 'home', label: 'Home' },
         { id: 'about', label: 'About' },
         { id: 'skills', label: 'Skills' },
         { id: 'projects', label: 'Projects' },
+        { id: 'graphics', label: 'Graphics' },
         { id: 'testimonials', label: 'Testimonials' }
     ];
 
-    const getClass = (id) =>
-        `px-4 cursor-pointer border-[#27ce80] ${activeSection === id ? 'border-b-2' : 'hover:border-b-2'
-        }`;
-
-
-
-    // // State to manage the visibility of the modal
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window.scrollY + window.innerHeight / 2;
-
-            for (const item of menuItems) {
-                const el = document.getElementById(item.id);
-                if (el) {
-                    const { top, bottom } = el.getBoundingClientRect();
-                    const elementTop = window.scrollY + top;
-                    const elementBottom = window.scrollY + bottom;
-
-                    if (scrollPosition >= elementTop && scrollPosition < elementBottom) {
-                        setActiveSection(item.id);
-                        break;
-                    }
-                }
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
-
-
-
-    // modal
-    const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
         <nav className="w-full block fixed top-0 left-0 z-50 bg-[#020013]">
             <div className="relative">
-                <div className="flex justify-between items-center lg:px-10 px-2 py-2">
+                <div className="flex justify-between items-center lg:px-10 px-2 py-4">
                     <img src="./assets/images/nwutobo_short.png" width="50" className="lg:hidden block" />
 
                     <p className="hidden lg:flex items-center gap-2">
                         <img src="./assets/images/nwutobo_short.png" width="30" />
-                        <span className="text-3xl font-bold">Victor Charles Nwutobo</span>
+                        <span className="text-3xl font-bold">Victor Nwutobo</span>
                     </p>
 
                     {/* Desktop Nav */}
                     <div className="hidden lg:block font-semibold text-white">
                         <ul className="flex gap-4">
                             {menuItems.map(item => (
-                                <li key={item.id} className={getClass(item.id)}>
-                                    <button onClick={() => handleNavClick(item.id)}>{item.label}</button>
+                                <li key={item.id} className="px-4 py-2 cursor-pointer hover:bg-[#27ce80] hover:text-black rounded-lg transition-all duration-300 ease-in-out">
+                                    <HashLink smooth to={`/#${item.id}`}>{item.label}</HashLink>
                                 </li>
                             ))}
                         </ul>
@@ -113,8 +73,8 @@ function Navbar() {
                     <div className="w-70 bg-[#020013] shadow-lg py-10 px-2">
                         <ul className="block space-y-3">
                             {menuItems.map(item => (
-                                <li key={item.id} className={getClass(item.id)}>
-                                    <button onClick={() => handleNavClick(item.id)}>{item.label}</button>
+                                <li key={item.id} className="px-4 cursor-pointer border-[#27ce80]">
+                                    <button >{item.label}</button>
                                 </li>
                             ))}
                             <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full bg-[#27ce80] text-black text-center cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>
