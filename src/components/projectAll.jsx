@@ -111,7 +111,7 @@ const ProjectAll = () => {
 
 
                 <header className="text-left mb-16">
-                    <h2 class="text-3xl font-bold mb-6 pb-2">Web Development <span className="text-[#27ce80]">Projects</span></h2>
+                    <h2 className="text-3xl font-bold mb-6 pb-2">Web Development <span className="text-[#27ce80]">Projects</span></h2>
                     <p className="text-lg  max-w-3xl">
                         A collection of functional, user-focused websites and applications built to deliver performance, seamless user experience, and real business value.
                     </p>

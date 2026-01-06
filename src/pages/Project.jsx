@@ -16,7 +16,7 @@ const Project = () => {
 
                 <section className="bg-[#27ce8030] rounded-lg p-3 w-full mb-10  flex items-center justify-center" data-aos="fade-up">
                     <header className="text-center w-full">
-                        <h2 class="text-3xl font-bold mb-6 pb-2">Web Development <span >Projects</span></h2>
+                        <h2 className="text-3xl font-bold mb-6 pb-2">Web Development <span >Projects</span></h2>
                         <p className="text-lg  text-center max-w-3xl mx-auto">
                             Discover a range of dynamic web projects, including business websites, booking platforms, dashboards, and full-scale applications. Every project focuses on usability, performance, and modern functionality to deliver seamless digital experiences.
                         </p>

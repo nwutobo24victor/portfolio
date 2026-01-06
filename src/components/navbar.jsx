@@ -74,7 +74,7 @@ function Navbar() {
                         <ul className="block space-y-3">
                             {menuItems.map(item => (
                                 <li key={item.id} className="px-4 cursor-pointer border-[#27ce80]">
-                                    <button >{item.label}</button>
+                                    <HashLink smooth to={`/#${item.id}`}>{item.label}</HashLink>
                                 </li>
                             ))}
                             <li className=" pt-10"><a href="document/26_05_25_n_v_charles_cv_dev.docx.pdf" className="drop-shadow-[0_0_10px_#3CAAFB] block w-full bg-[#27ce80] text-black text-center cursor-pointer hover:opacity-80 font-semibold rounded-lg px-6 py-2 transition-all duration-300 ease-in-out" download>Download CV</a></li>

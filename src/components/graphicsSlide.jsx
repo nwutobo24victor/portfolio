@@ -57,7 +57,7 @@ const ProjectFew = () => {
 
             <div className="block w-full">
                 <header className="text-left mb-16">
-                    <h2 class="text-3xl font-bold mb-6 pb-2">Graphics & Flyer <span className="text-[#27ce80]">Designs</span></h2>
+                    <h2 className="text-3xl font-bold mb-6 pb-2">Graphics & Flyer <span className="text-[#27ce80]">Designs</span></h2>
                     <p className="text-lg  max-w-3xl">
                         A showcase of visually engaging flyers and graphic works crafted to communicate clearly, attract attention, and elevate brand identity.
                     </p>

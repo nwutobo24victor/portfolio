@@ -16,7 +16,7 @@ const Project = () => {
 
                 <section className="bg-[#27ce8030] rounded-lg p-3 w-full mb-10  flex items-center justify-center" data-aos="fade-up">
                     <header className="text-center w-full">
-                        <h2 class="text-3xl font-bold mb-6 pb-2">Graphics Design <span >Projects</span></h2>
+                        <h2 className="text-3xl font-bold mb-6 pb-2">Graphics Design <span >Projects</span></h2>
                         <p className="text-lg  text-center max-w-3xl mx-auto">
                             Explore a diverse collection of visually appealing graphic designs, from eye-catching flyers to promotional materials crafted to communicate ideas with clarity and style. Each design reflects creativity, precision, and a strong understanding of brand identity.
                         </p>

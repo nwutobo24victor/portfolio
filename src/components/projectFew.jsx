@@ -60,7 +60,7 @@ const ProjectFew = () => {
 
             <div className="block w-full">
                 <header className="text-left mb-16">
-                    <h2 class="text-3xl font-bold mb-6 pb-2">Delivered <span className="text-[#27ce80]">Projects</span></h2>
+                    <h2 className="text-3xl font-bold mb-6 pb-2">Delivered <span className="text-[#27ce80]">Projects</span></h2>
                     <p className="text-lg  max-w-3xl">
                         Explore a curated list of web development projects ranging from dynamic content platforms to full-scale business applications. Each project showcases a blend of creativity, usability, and functionality.
                     </p>
