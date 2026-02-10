@@ -15,6 +15,15 @@ const Experience = () => {
                         <h3 className="text-xl font-semibold ">Full Stack Web Developer</h3>
                         <p className="text-sm text-[#27ce80]">Ichie ICT, Enugu</p>
                     </div>
+                    <div className="text-sm text-gray-400 mt-2 md:mt-0">April 2025 – Present</div>
+                </div>
+
+                 <div className="md:flex md:justify-between md:items-start gap-4 border-l-4 border-[#27ce80] pl-6 relative">
+                    <div className="absolute left-[-10px] top-2 w-4 h-4 bg-[#27ce80] rounded-full"></div>
+                    <div>
+                        <h3 className="text-xl font-semibold ">Front End Web Developer</h3>
+                        <p className="text-sm text-[#27ce80]">Ichie ICT, Enugu</p>
+                    </div>
                     <div className="text-sm text-gray-400 mt-2 md:mt-0">Jan 2025 – Present</div>
                 </div>
 
