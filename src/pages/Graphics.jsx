@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from '../components/navbar';
-import ProjectAll from "../components/projectAll";
+import GraphicAll from "../components/graphicAll";
 import Footer from "../components/footer";
 
 const Project = () => {
@@ -28,7 +28,7 @@ const Project = () => {
 
 
                 <section id="graphics" className="w-full mb-20 lg:p-6 px-2 py-2 rounded-lg" data-aos="fade-up">
-                    <ProjectAll />
+                    <GraphicAll />
                 </section>
 
                 <section className="w-full mb-20 flex item-center justify-center">

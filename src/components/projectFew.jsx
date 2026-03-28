@@ -1,13 +1,23 @@
 import React from "react";
 
-export const projects = [
+const projects = [
+    {
+        title: "Nigeria Institute of Builders Ogun State",
+        image: "assets/images/niob-ogun-project.jpeg",
+        link: "http://niobogun.org",
+        description:
+            "I developed a fully functional and responsive official website for NIOB Ogun State Chapter",
+        action: "Visit Website",
+        technology:'React, PHP, MySql, Tailwind',
+    },
     {
         title: "Man O' War Nigeria Blog",
         image: "assets/images/new_manowarng.org.jpeg",
         link: "http://manowarng.org",
         description:
             "A blog platform built to share updates, articles, and activities about the organization’s mission and impact.",
-        action: "Visit Website"
+        action: "Visit Website",
+        technology:'Js, Jquery, PHP, MySql, Tailwind',
     },
     {
         title: "Recruitment Portal",
@@ -15,7 +25,8 @@ export const projects = [
         link: "http://recruitment.manowarng.org",
         description:
             "An optimized platform that facilitates seamless recruitment processes for Man O' War Nigeria.",
-        action: "Visit Website"
+        action: "Visit Website",
+        technology:'Js, Jquery, PHP, MySql, Tailwind',
     },
     {
         title: "St Pauls Online Store",
@@ -23,7 +34,8 @@ export const projects = [
         link: "https://stpaulsonline.ng/",
         description:
             "An e-commerce platform tailored for selling Catholic literature and spiritual items.",
-        action: "Visit Website"
+        action: "Visit Website",
+        technology:'Wordpress, Php, CSS, JS',
     },
     {
         title: "Napec Marshal Corp",
@@ -31,15 +43,17 @@ export const projects = [
         link: "http://napec.ing",
         description:
             "A corporate site for a security company offering expert personnel and security gadgets.",
-        action: "Visit Website"
+        action: "Visit Website",
+        technology:'Js, Jquery, PHP, MySql, Bootstrap',
     },
     {
         title: "Renes Hicy International LTD",
         image: "assets/images/reneshicy_project.png",
         link: "https://reneshicy.com.ng/",
         description:
-            "A corporate website for a building and interior finishing company.",
-        action: "View Website"
+            "A corporate website for a building and interior finishing company. they sell tiles, bath tub showers etc",
+        action: "View Website",
+        technology:'Js, Jquery, PHP, MySql, Bootstrap',
     },
     {
         title: "D’Young Unlimited Cre8tivity",
@@ -47,7 +61,8 @@ export const projects = [
         link: "https://d-young-unlimited-cre8tivity.vercel.app/",
         description:
             "A fashion and branding website showcasing tailoring, branding, and printing services.",
-        action: "View Website"
+        action: "View Website",
+        technology:'Js, Jquery, PHP, MySql, Tailwind',
     }
 ];
 
